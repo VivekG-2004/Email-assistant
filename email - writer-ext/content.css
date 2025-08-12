@@ -1,0 +1,16 @@
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.ai-reply-button {
+    background: linear-gradient(90deg, #ff6ec4, #7873f5, #4ade80);
+    background-size: 300% 300%;
+    animation: gradientAnimation 3s ease infinite;
+    color: white !important;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
